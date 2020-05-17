@@ -462,6 +462,7 @@ public class Kernel extends Thread
       else 
       {
         page.M = 1;
+        page.R = 1;
         page.lastTouchTime = 0;
         if ( doFileLog )
         {

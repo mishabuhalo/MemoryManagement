@@ -12,12 +12,6 @@ public class PageFault {
    * The page replacement algorithm for the memory management sumulator.
    * This method gets called whenever a page needs to be replaced.
    * <p>
-   * The page replacement algorithm included with the simulator is 
-   * FIFO (first-in first-out).  A while or for loop should be used 
-   * to search through the current memory contents for a canidate 
-   * replacement page.  In the case of FIFO the while loop is used 
-   * to find the proper page while making sure that virtPageNum is 
-   * not exceeded.
    * <pre>
    *   Page page = ( Page ) mem.elementAt( oldestPage )
    * </pre>
