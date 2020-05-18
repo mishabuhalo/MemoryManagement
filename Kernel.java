@@ -23,6 +23,7 @@ public class Kernel extends Thread
   public int runcycles;
   public long block = (int) Math.pow(2,12);
   public static byte addressradix = 10;
+  private int timer = 0;
 
   public void init( String commands , String config )  
   {
@@ -474,18 +475,16 @@ public class Kernel extends Thread
         }
       }
     }
-    for ( i = 0; i < virtPageNum; i++ ) 
-    {
-      Page page = ( Page ) memVector.elementAt( i );
-      if ( page.R == 1 && page.lastTouchTime == 10 ) 
-      {
-        page.R = 0;
-      }
-      if ( page.physical != -1 ) 
-      {
-        page.inMemTime = page.inMemTime + 10;
-        page.lastTouchTime = page.lastTouchTime + 10;
-      }
+
+    if(timer == 15) {
+      for (i = 0; i < virtPageNum; i++) {
+        Page page = (Page) memVector.elementAt(i);
+          page.R = 0;
+          }
+      timer = 0;
+    }
+    else {
+      timer+=5;
     }
     runs++;
     controlPanel.timeValueLabel.setText( Integer.toString( runs*10 ) + " (ns)" );

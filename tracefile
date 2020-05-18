@@ -1,9 +1,1 @@
-READ 4 ... okay
-WRITE 13 ... okay
-READ 13 ... okay
-WRITE aa ... okay
-WRITE a1e8c ... page fault
-READ 4000 ... page fault
-READ 4000 ... okay
-WRITE 6001 ... okay
-WRITE a1e8c ... okay
+READ 2 ... okay

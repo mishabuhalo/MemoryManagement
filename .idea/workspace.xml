@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6f869a74-1e67-41c1-9a2d-84130f3b44c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ControlPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kernel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kernel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kernel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageFault.class" beforeDir="false" afterPath="$PROJECT_DIR$/PageFault.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageFault.java" beforeDir="false" afterPath="$PROJECT_DIR$/PageFault.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands" beforeDir="false" afterPath="$PROJECT_DIR$/commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory.conf" beforeDir="false" afterPath="$PROJECT_DIR$/memory.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracefile" beforeDir="false" afterPath="$PROJECT_DIR$/tracefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,5 +42,11 @@
       <updated>1581244783716</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1589796166980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1589796166980" />
   </component>
 </project>

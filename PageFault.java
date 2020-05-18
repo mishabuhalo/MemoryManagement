@@ -53,8 +53,10 @@ public class PageFault {
       Page page = (Page) mem.elementAt(i);
       if(page.physical!=-1) {
         if (page.R == 0 && page.M == 0) {
-          if (zeroClassPage == -1)
+          if (zeroClassPage == -1) {
             zeroClassPage = i;
+            break;
+          }
         } else if (page.R == 0 && page.M == 1) {
           if (firsClassPage == -1)
             firsClassPage = i;

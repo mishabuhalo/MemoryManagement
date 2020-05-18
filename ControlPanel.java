@@ -959,263 +959,263 @@ public class ControlPanel extends Frame
     statusValueLabel.setText(status);
   }
 
-  public void addPhysicalPage( int pageNum , int physicalPage ) 
+  public void addPhysicalPage( int physicalPage , int pageNum )
   {
-    if ( physicalPage == 0 ) 
+    if ( pageNum == 0 )
     {
-      l0.setText( "page " + pageNum );
+      l0.setText( "page " + physicalPage );
     }
-    else if ( physicalPage == 1) 
+    else if ( pageNum == 1)
     {
-      l1.setText( "page " + pageNum );
+      l1.setText( "page " + physicalPage );
     }
-    else if ( physicalPage == 2)
+    else if ( pageNum == 2)
     {
-      l2.setText( "page " + pageNum );
+      l2.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 3)
+    else if ( pageNum == 3)
     {
-      l3.setText( "page " + pageNum );
+      l3.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 4)
+    else if ( pageNum == 4)
     {
-      l4.setText( "page " + pageNum );
+      l4.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 5)
+    else if ( pageNum == 5)
     {
-      l5.setText( "page " + pageNum );
+      l5.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 6)
+    else if ( pageNum == 6)
     {
-      l6.setText( "page " + pageNum );
+      l6.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 7)
+    else if ( pageNum == 7)
     {
-      l7.setText( "page " + pageNum );
+      l7.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 8)
+    else if ( pageNum == 8)
     {
-      l8.setText( "page " + pageNum );
+      l8.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 9)
+    else if ( pageNum == 9)
     {
-      l9.setText( "page " + pageNum );
+      l9.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 10)
+    else if ( pageNum == 10)
     {
-      l10.setText( "page " + pageNum );
+      l10.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 11)
+    else if ( pageNum == 11)
     {
-      l11.setText( "page " + pageNum );
+      l11.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 12)
+    else if ( pageNum == 12)
     {
-      l12.setText( "page " + pageNum );
+      l12.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 13)
+    else if ( pageNum == 13)
     {
-      l13.setText( "page " + pageNum );
+      l13.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 14)
+    else if ( pageNum == 14)
     {
-      l14.setText( "page " + pageNum );
+      l14.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 15)
+    else if ( pageNum == 15)
     {
-      l15.setText( "page " + pageNum );
+      l15.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 16)
+    else if ( pageNum == 16)
     {
-      l16.setText( "page " + pageNum );
+      l16.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 17)
+    else if ( pageNum == 17)
     {
-      l17.setText( "page " + pageNum );
+      l17.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 18)
+    else if ( pageNum == 18)
     {
-      l18.setText( "page " + pageNum );
+      l18.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 19)
+    else if ( pageNum == 19)
     {
-      l19.setText( "page " + pageNum );
+      l19.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 20)
+    else if ( pageNum == 20)
     {
-      l20.setText( "page " + pageNum );
+      l20.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 21)
+    else if ( pageNum == 21)
     {
-      l21.setText( "page " + pageNum );
+      l21.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 22)
+    else if ( pageNum == 22)
     {
-      l22.setText( "page " + pageNum );
+      l22.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 23)
+    else if ( pageNum == 23)
     {
-      l23.setText( "page " + pageNum );
+      l23.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 24)
+    else if ( pageNum == 24)
     {
-      l24.setText( "page " + pageNum );
+      l24.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 25)
+    else if ( pageNum == 25)
     {
-      l25.setText( "page " + pageNum );
+      l25.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 26)
+    else if ( pageNum == 26)
     {
-      l26.setText( "page " + pageNum );
+      l26.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 27)
+    else if ( pageNum == 27)
     {
-      l27.setText( "page " + pageNum );
+      l27.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 28)
+    else if ( pageNum == 28)
     {
-      l28.setText( "page " + pageNum );
+      l28.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 29)
+    else if ( pageNum == 29)
     {
-      l29.setText( "page " + pageNum );
+      l29.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 30)
+    else if ( pageNum == 30)
     {
-      l30.setText( "page " + pageNum );
+      l30.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 31)
+    else if ( pageNum == 31)
     {
-      l31.setText( "page " + pageNum );
+      l31.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 32)
+    else if ( pageNum == 32)
     {
-      l32.setText( "page " + pageNum );
+      l32.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 33)
+    else if ( pageNum == 33)
     {
-      l33.setText( "page " + pageNum );
+      l33.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 34)
+    else if ( pageNum == 34)
     {
-      l34.setText( "page " + pageNum );
+      l34.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 35)
+    else if ( pageNum == 35)
     {
-      l35.setText( "page " + pageNum );
+      l35.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 36)
+    else if ( pageNum == 36)
     {
-      l36.setText( "page " + pageNum );
+      l36.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 37)
+    else if ( pageNum == 37)
     {
-      l37.setText( "page " + pageNum );
+      l37.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 38)
+    else if ( pageNum == 38)
     {
-      l38.setText( "page " + pageNum );
+      l38.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 39)
+    else if ( pageNum == 39)
     {
-      l39.setText( "page " + pageNum );
+      l39.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 40)
+    else if ( pageNum == 40)
     {
-      l40.setText( "page " + pageNum );
+      l40.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 41)
+    else if ( pageNum == 41)
     {
-      l41.setText( "page " + pageNum );
+      l41.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 42)
+    else if ( pageNum == 42)
     {
-      l42.setText( "page " + pageNum );
+      l42.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 43)
+    else if ( pageNum == 43)
     {
-      l43.setText( "page " + pageNum );
+      l43.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 44)
+    else if ( pageNum == 44)
     {
-      l44.setText( "page " + pageNum );
+      l44.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 45)
+    else if ( pageNum == 45)
     {
-      l45.setText( "page " + pageNum );
+      l45.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 46)
+    else if ( pageNum == 46)
     {
-      l46.setText( "page " + pageNum );
+      l46.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 47)
+    else if ( pageNum == 47)
     {
-      l47.setText( "page " + pageNum );
+      l47.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 48)
+    else if ( pageNum == 48)
     {
-      l48.setText( "page " + pageNum );
+      l48.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 49)
+    else if ( pageNum == 49)
     {
-      l49.setText( "page " + pageNum );
+      l49.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 50)
+    else if ( pageNum == 50)
     {
-      l50.setText( "page " + pageNum );
+      l50.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 51)
+    else if ( pageNum == 51)
     {
-      l51.setText( "page " + pageNum );
+      l51.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 52)
+    else if ( pageNum == 52)
     {
-      l52.setText( "page " + pageNum );
+      l52.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 53)
+    else if ( pageNum == 53)
     {
-      l53.setText( "page " + pageNum );
+      l53.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 54)
+    else if ( pageNum == 54)
     {
-      l54.setText( "page " + pageNum );
+      l54.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 55)
+    else if ( pageNum == 55)
     {
-      l55.setText( "page " + pageNum );
+      l55.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 56)
+    else if ( pageNum == 56)
     {
-      l56.setText( "page " + pageNum );
+      l56.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 57)
+    else if ( pageNum == 57)
     {
-      l57.setText( "page " + pageNum );
+      l57.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 58)
+    else if ( pageNum == 58)
     {
-      l58.setText( "page " + pageNum );
+      l58.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 59)
+    else if ( pageNum == 59)
     {
-      l59.setText( "page " + pageNum );
+      l59.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 60)
+    else if ( pageNum == 60)
     {
-      l60.setText( "page " + pageNum );
+      l60.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 61)
+    else if ( pageNum == 61)
     {
-      l61.setText( "page " + pageNum );
+      l61.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 62)
+    else if ( pageNum == 62)
     {
-      l62.setText( "page " + pageNum );
+      l62.setText( "page " + physicalPage );
     } 
-    else if ( physicalPage == 63)
+    else if ( pageNum == 63)
     {
-      l63.setText( "page " + pageNum );
+      l63.setText( "page " + physicalPage );
     } 
     else 
     {
